@@ -2,7 +2,7 @@ const express = require("express");
 const MongoClient = require('mongodb');
 var app = express();
 
-var url = require('./connection');
+const url = "mongodb+srv://JoaoIMO:imodream2022@cluster0.lyfie.mongodb.net/IMODREAM?retryWrites=true&w=majority";
 
 
 const connectDB = () => {
