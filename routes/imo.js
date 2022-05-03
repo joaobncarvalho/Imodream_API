@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
+var app = express();
+
 app.get('/api/imo', function(req, res) {
     MongoClient.connect(url, function(err, db) {
         if (err) throw err;
@@ -27,3 +29,5 @@ app.post('/api/add_imo', function(req, res) {
     });
 });
 module.exports = router;
+
+module.exports = app;

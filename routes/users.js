@@ -1,6 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
+
+var app = express();
+
 // LISTA TODOS OS ELEMENTOS
 app.get('/api/users', function(req, res) {
   MongoClient.connect(url, function(err, db) {

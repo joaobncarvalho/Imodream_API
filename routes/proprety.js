@@ -16,7 +16,7 @@ const corsOpts = { origin: '*', methods: ['GET', 'POST'], allowedHeaders: ['Cont
 app.use(cors(corsOpts));
 
 
-
+var app = express();
 
 app.get('/api/proprety', function(req, res) {
     MongoClient.connect(url, function(err, db) {
