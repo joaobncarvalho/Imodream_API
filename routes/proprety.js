@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 var cors = require('cors');
+var router = express.Router();
 const MongoClient = require('mongodb');
 
 var app = express();
@@ -15,9 +16,10 @@ const corsOpts = { origin: '*', methods: ['GET', 'POST'], allowedHeaders: ['Cont
 app.use(cors(corsOpts));
 
 
-var app = express();
 
-app.get('/api/proprety', function(req, res) {
+
+
+    app.get('/api/proprety', function(req, res) {
     MongoClient.connect(url, function(err, db) {
         if (err) throw err;
         var dbo = db.db("IMODREAM");
@@ -30,6 +32,8 @@ app.get('/api/proprety', function(req, res) {
     });
 });
 
+
+
 app.post('/api/add_proprety', function(req, res) {
     MongoClient.connect(url, function(err, db ) {
         if (err) throw err;
@@ -41,6 +45,5 @@ app.post('/api/add_proprety', function(req, res) {
         });
     });
 });
-
 
 module.exports = router;
