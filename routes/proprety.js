@@ -42,4 +42,5 @@ app.post('/api/add_proprety', function(req, res) {
     });
 });
 
+
 module.exports = router;
