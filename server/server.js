@@ -19,7 +19,7 @@ const corsOpts = { origin: '*', methods: ['GET', 'POST'], allowedHeaders: ['Cont
 app.use(cors(corsOpts));
 
 // LISTA TODOS OS ELEMENTOS
-app.get('/users', function(req, res) {
+app.get('/api/users', function(req, res) {
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
     var dbo = db.db("IMODREAM");
@@ -32,7 +32,7 @@ app.get('/users', function(req, res) {
   });
 });
 
-app.post('/add_users', function(req, res) {
+app.post('/api/add_users', function(req, res) {
   MongoClient.connect(url, function(err, db ) {
     if (err) throw err;
     var dbo = db.db("IMODREAM");
@@ -46,7 +46,7 @@ app.post('/add_users', function(req, res) {
 
 
 
-app.get('/proprety', function(req, res) {
+app.get('/api/proprety', function(req, res) {
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
     var dbo = db.db("IMODREAM");
@@ -59,7 +59,7 @@ app.get('/proprety', function(req, res) {
   });
 });
 
-app.post('/add_proprety', function(req, res) {
+app.post('/api/add_proprety', function(req, res) {
   MongoClient.connect(url, function(err, db ) {
     if (err) throw err;
     var dbo = db.db("IMODREAM");
@@ -73,7 +73,7 @@ app.post('/add_proprety', function(req, res) {
 
 
 
-app.get('/imo', function(req, res) {
+app.get('/api/imo', function(req, res) {
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
     var dbo = db.db("IMODREAM");
@@ -86,7 +86,7 @@ app.get('/imo', function(req, res) {
   });
 });
 
-app.post('/add_imo', function(req, res) {
+app.post('/api/add_imo', function(req, res) {
   MongoClient.connect(url, function(err, db ) {
     if (err) throw err;
     var dbo = db.db("IMODREAM");
