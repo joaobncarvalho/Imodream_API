@@ -3,8 +3,7 @@ var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 var cors = require('cors');
-var db = require('./database');
-
+const MongoClient = require('mongodb');
 
 var app = express();
 
