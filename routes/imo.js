@@ -1,5 +1,7 @@
 var express = require('express');
+const url = "mongodb+srv://JoaoIMO:imodream2022@cluster0.lyfie.mongodb.net/IMODREAM?retryWrites=true&w=majority";
 var router = express.Router();
+
 
 var app = express();
 

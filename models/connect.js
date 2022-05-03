@@ -2,8 +2,10 @@ const express = require("express");
 const MongoClient = require('mongodb');
 var app = express();
 
+var url = require('./connection');
 
-const connectDB = (url) => {
+
+const connectDB = () => {
   return MongoClient.connect(url);
 };
 
