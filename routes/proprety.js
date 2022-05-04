@@ -24,7 +24,7 @@ router.get('/', function(req, res) {
 
 
 
-router.post('/add_proprety', function(req, res) {
+router.post('/api/add_proprety', function(req, res) {
     MongoClient.connect(url, function(err, db ) {
         if (err) throw err;
         var dbo = db.db("IMODREAM");
