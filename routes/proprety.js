@@ -5,6 +5,8 @@ var bodyParser = require('body-parser');
 var cors = require('cors');
 var router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
+url ="mongodb+srv://JoaoIMO:imodream2022@cluster0.lyfie.mongodb.net/IMODREAM?retryWrites=true&w=majority";
+
 
 var app = express();
 
