@@ -3,7 +3,7 @@ var router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 url ="mongodb+srv://JoaoIMO:imodream2022@cluster0.lyfie.mongodb.net/IMODREAM?retryWrites=true&w=majority";
 
-var app = express();
+
 
 
 
@@ -21,7 +21,7 @@ router.get('/', function(req, res) {
 });
 
 
-router.post('/api/add_imo', function(req, res) {
+router.post('/add_imo', function(req, res) {
     MongoClient.connect(url, function(err, db ) {
         if (err) throw err;
         var dbo = db.db("IMODREAM");
