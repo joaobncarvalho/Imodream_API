@@ -8,7 +8,7 @@ var app = express();
 
 ;
 
-app.get('/', function(req, res) {
+router.get('/', function(req, res) {
     MongoClient.connect(url, function(err, db) {
         if (err) throw err;
         var dbo = db.db("IMODREAM");
@@ -24,7 +24,7 @@ app.get('/', function(req, res) {
 
 
 
-app.post('/api/add_proprety', function(req, res) {
+router.post('/api/add_proprety', function(req, res) {
     MongoClient.connect(url, function(err, db ) {
         if (err) throw err;
         var dbo = db.db("IMODREAM");
