@@ -21,7 +21,7 @@ router.get('/', function(req, res) {
 });
 
 
-router.post('/', function(req, res) {
+router.post('/api/add_users', function(req, res) {
   MongoClient.connect(url, function(err, db ) {
     if (err) throw err;
     var dbo = db.db("IMODREAM");
