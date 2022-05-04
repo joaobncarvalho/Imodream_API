@@ -1,4 +1,11 @@
-GET http://localhost:80/api/item?id=99
+GET http://localhost:8080/api/proprety/one
+Accept: application/json
+
+<> 2022-05-04T231213.200.json
+
+###
+
+GET http://localhost:8080/api/proprety/one
 Accept: application/json
 
 ###
