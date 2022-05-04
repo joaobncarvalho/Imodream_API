@@ -7,7 +7,7 @@ var app = express();
 
 
 
-app.get('/api/imo', function(req, res) {
+app.get('/', function(req, res) {
     MongoClient.connect(url, function(err, db) {
         if (err) throw err;
         var dbo = db.db("IMODREAM");

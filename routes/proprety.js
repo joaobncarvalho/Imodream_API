@@ -10,14 +10,9 @@ url ="mongodb+srv://JoaoIMO:imodream2022@cluster0.lyfie.mongodb.net/IMODREAM?ret
 
 var app = express();
 
-// PREPARAR API PARA RECEBER JSON E UNIFORMIZAR URLS
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
-// PREPARAR API PARA LIDAR COM PROBLEMAS DE CORS
-const corsOpts = { origin: '*', methods: ['GET', 'POST'], allowedHeaders: ['Content-Type']};
-app.use(cors(corsOpts));
+;
 
-app.get('/api/proprety', function(req, res) {
+app.get('/', function(req, res) {
     MongoClient.connect(url, function(err, db) {
         if (err) throw err;
         var dbo = db.db("IMODREAM");
