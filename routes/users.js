@@ -1,11 +1,13 @@
 var express = require('express');
 var router = express.Router();
+const MongoClient = require('mongodb').MongoClient;
+var url = require("/models/connect");
 
 
-var app = express();
+
 
 // LISTA TODOS OS ELEMENTOS
-app.get('/api/users', function(req, res) {
+router.get('/', function(req, res) {
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
     var dbo = db.db("IMODREAM");
@@ -19,7 +21,7 @@ app.get('/api/users', function(req, res) {
 });
 
 
-app.post('/api/add_users', function(req, res) {
+router.post('/add_users', function(req, res) {
   MongoClient.connect(url, function(err, db ) {
     if (err) throw err;
     var dbo = db.db("IMODREAM");

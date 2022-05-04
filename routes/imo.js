@@ -22,7 +22,7 @@ app.get('/api/imo', function(req, res) {
 
 
 app.post('/api/add_imo', function(req, res) {
-    MongoClient.connect(pool, function(err, db ) {
+    MongoClient.connect(url, function(err, db ) {
         if (err) throw err;
         var dbo = db.db("IMODREAM");
         dbo.collection("Imobiliaria").insertOne(req.body).catch(function(err, result) {

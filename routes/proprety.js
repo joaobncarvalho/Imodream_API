@@ -4,7 +4,7 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var router = express.Router();
-const MongoClient = require('mongodb');
+const MongoClient = require('mongodb').MongoClient;
 
 var app = express();
 
@@ -15,11 +15,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 const corsOpts = { origin: '*', methods: ['GET', 'POST'], allowedHeaders: ['Content-Type']};
 app.use(cors(corsOpts));
 
-
-
-
-
-    app.get('/api/proprety', function(req, res) {
+app.get('/api/proprety', function(req, res) {
     MongoClient.connect(url, function(err, db) {
         if (err) throw err;
         var dbo = db.db("IMODREAM");
@@ -31,6 +27,8 @@ app.use(cors(corsOpts));
         });
     });
 });
+
+
 
 
 
