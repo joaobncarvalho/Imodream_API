@@ -24,7 +24,6 @@ app.get('/', function(req, res) {
 
 
 
-
 app.post('/api/add_proprety', function(req, res) {
     MongoClient.connect(url, function(err, db ) {
         if (err) throw err;
