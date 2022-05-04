@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "625039d7960726ed14ed97b5",
+    "Imobiliaria": [
+      {
+        "i_name": "century",
+        "i_email": "century@gmail.com",
+        "i_pw": 123456,
+        "i_morada": "Rua das flores",
+        "i_criacao": "13-03-2005",
+        "i_phoneN": 910521213,
+        "i_type": 1
+      },
+      {
+        "i_name": "remax",
+        "i_email": "remax@gmail.com",
+        "i_pw": 123456,
+        "i_morada": "Corroios",
+        "i_criacao": "09-09-2001",
+        "i_phoneN": 910111213,
+        "i_type": 1
+      }
+    ]
+  },
+  {
+    "_id": "62710326fc1acc74dd63a75e",
+    "i_name": "KW Lead",
+    "i_email": "kw@gmail.com",
+    "i_pw": "123456",
+    "i_morada": "Rua do desespero infindo",
+    "i_criacao": "20-09-2018",
+    "i_phoneN": 925431789,
+    "i_type": 1
+  }
+]
