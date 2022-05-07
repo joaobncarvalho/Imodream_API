@@ -5,9 +5,6 @@ url ="mongodb+srv://JoaoIMO:imodream2022@cluster0.lyfie.mongodb.net/IMODREAM?ret
 
 
 
-
-
-
 router.get('/', function(req, res) {
     MongoClient.connect(url, function(err, db) {
         if (err) throw err;
