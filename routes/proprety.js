@@ -42,6 +42,18 @@ router.get('/two', function(req, res) {
     });
 });
 
+router.get('/3', function(req, res) {
+    MongoClient.connect(url, function(err, db) {
+        if (err) throw err;
+        var dbo = db.db("IMODREAM");
+        dbo.collection("Proprety Attribute").find({PropId: 3}).toArray(function(err, result) {
+            if (err) throw err;
+            res.send(result);
+            db.close();
+        });
+    });
+});
+
 
 
 
