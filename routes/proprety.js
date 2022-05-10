@@ -54,6 +54,19 @@ router.get('/3', function(req, res) {
     });
 });
 
+router.get('/location', function(req, res) {
+    MongoClient.connect(url, function(err, db) {
+        if (err) throw err;
+        var dbo = db.db("IMODREAM");
+        dbo.collection("Proprety Attribute").find({location:{"type": "Point", "coordinates": [38.73160521501124, -9.241842273565375]}
+    }).toArray(function(err, result) {
+            if (err) throw err;
+            res.send(result);
+            db.close();
+        });
+    });
+});
+
 
 
 
@@ -68,5 +81,4 @@ router.post('/add_proprety', function(req, res) {
         });
     });
 });
-
 module.exports = router;
