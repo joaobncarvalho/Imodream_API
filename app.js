@@ -10,6 +10,7 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const imoRouter = require('./routes/imo');
 const propretyRouter = require('./routes/proprety');
+const areaRouter = require('./routes/area');
 
 
 const app = express();
@@ -29,6 +30,7 @@ app.use('/', indexRouter);
 app.use('/api/users', usersRouter);
 app.use('/api/imo', imoRouter);
 app.use('/api/proprety',propretyRouter);
+app.use('/api/area',areaRouter);
 
 
 app.listen(8080, function() {

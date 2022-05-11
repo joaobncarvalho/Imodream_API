@@ -48,12 +48,12 @@
       <DataType>ObjectId|12s</DataType>
       <Position>1</Position>
     </column>
-    <column id="17" parent="6" name="AreaName">
-      <DataType>String|12s</DataType>
+    <column id="17" parent="6" name="location">
+      <DataType>Object|4999544s</DataType>
       <Position>1</Position>
     </column>
-    <column id="18" parent="6" name="location">
-      <DataType>Object|4999544s</DataType>
+    <column id="18" parent="6" name="AreaName">
+      <DataType>String|12s</DataType>
       <Position>1</Position>
     </column>
     <column id="19" parent="6" name="Dimension">
@@ -64,11 +64,11 @@
       <DataType>Array|2003s</DataType>
       <Position>2</Position>
     </column>
-    <column id="21" parent="6" name="Measurments">
+    <column id="21" parent="6" name="location.type">
       <DataType>String|12s</DataType>
       <Position>3</Position>
     </column>
-    <column id="22" parent="6" name="location.type">
+    <column id="22" parent="6" name="Measurments">
       <DataType>String|12s</DataType>
       <Position>3</Position>
     </column>
