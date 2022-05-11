@@ -52,41 +52,41 @@
       <DataType>String|12s</DataType>
       <Position>1</Position>
     </column>
-    <column id="18" parent="6" name="Dimension">
+    <column id="18" parent="6" name="location">
+      <DataType>Object|4999544s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="19" parent="6" name="Dimension">
       <DataType>String|12s</DataType>
       <Position>2</Position>
     </column>
-    <column id="19" parent="6" name="Location">
-      <DataType>Object|4999544s</DataType>
+    <column id="20" parent="6" name="location.coordinates">
+      <DataType>Array|2003s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="21" parent="6" name="Measurments">
+      <DataType>String|12s</DataType>
       <Position>3</Position>
     </column>
-    <column id="20" parent="6" name="Location.coordinates">
-      <DataType>Array|2003s</DataType>
-      <Position>4</Position>
-    </column>
-    <column id="21" parent="6" name="Location.type">
+    <column id="22" parent="6" name="location.type">
       <DataType>String|12s</DataType>
-      <Position>5</Position>
-    </column>
-    <column id="22" parent="6" name="Measurments">
-      <DataType>String|12s</DataType>
-      <Position>6</Position>
+      <Position>3</Position>
     </column>
     <column id="23" parent="6" name="Price">
       <DataType>String|12s</DataType>
-      <Position>7</Position>
+      <Position>4</Position>
     </column>
     <column id="24" parent="6" name="PropId">
       <DataType>Int32|4s</DataType>
-      <Position>8</Position>
+      <Position>5</Position>
     </column>
     <column id="25" parent="6" name="PropretyType">
       <DataType>String|12s</DataType>
-      <Position>9</Position>
+      <Position>6</Position>
     </column>
     <column id="26" parent="6" name="StreetName">
       <DataType>String|12s</DataType>
-      <Position>10</Position>
+      <Position>7</Position>
     </column>
     <column id="27" parent="7" name="_id">
       <DataType>ObjectId|12s</DataType>
@@ -117,7 +117,7 @@
       <Position>1</Position>
     </column>
     <column id="34" parent="7" name="utype">
-      <DataType>Int32|4s</DataType>
+      <DataType>String|12s</DataType>
       <Position>1</Position>
     </column>
   </database-model>
