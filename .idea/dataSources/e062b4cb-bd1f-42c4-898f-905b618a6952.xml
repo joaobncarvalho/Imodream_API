@@ -97,12 +97,12 @@
       <DataType>String|12s</DataType>
       <Position>2</Position>
     </column>
-    <column id="30" parent="7" name="location.type">
-      <DataType>String|12s</DataType>
+    <column id="30" parent="7" name="PropId">
+      <DataType>Int32|4s</DataType>
       <Position>3</Position>
     </column>
-    <column id="31" parent="7" name="PropId">
-      <DataType>Int32|4s</DataType>
+    <column id="31" parent="7" name="location.type">
+      <DataType>String|12s</DataType>
       <Position>3</Position>
     </column>
     <column id="32" parent="7" name="PropretyType">
