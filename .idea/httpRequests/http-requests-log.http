@@ -1,3 +1,38 @@
+GET http://localhost:8080/api/proprety/1
+Accept: application/json
+
+<> 2022-05-19T114758.200.json
+
+###
+
+GET http://localhost:8080/api/proprety/1
+Accept: application/json
+
+<> 2022-05-19T114700.200.json
+
+###
+
+GET http://localhost:8080/api/proprety/1
+Accept: application/json
+
+<> 2022-05-19T114553.200.json
+
+###
+
+GET http://localhost:8080/api/proprety/2
+Accept: application/json
+
+<> 2022-05-19T114453.200.json
+
+###
+
+GET http://localhost:8080/api/proprety/1
+Accept: application/json
+
+<> 2022-05-19T114440.200.json
+
+###
+
 GET http://localhost:8080/api/proprety/one
 Accept: application/json
 
