@@ -33,7 +33,18 @@ router.post('/add_users', function(req, res) {
   });
 });
 
-
+router.get('/sellers', function(req, res) {
+  MongoClient.connect(url, function(err, db) {
+    if (err) throw err;
+    var dbo = db.db("IMODREAM");
+    var query = "";
+    dbo.collection("Users").find({utype:"Vendedor"}).toArray(function(err, result) {
+      if (err) throw err;
+      res.send(result);
+      db.close();
+    });
+  });
+});
 
 
 
