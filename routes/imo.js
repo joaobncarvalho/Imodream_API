@@ -33,6 +33,19 @@ router.post('/add_imo', function(req, res) {
     });
 });
 
+router.get('/:id(\\d+)', function(req, res) {
+    var id = req.params.id
+    console.log(id)
+    MongoClient.connect(url, function(err, db) {
 
+        if (err) throw err;
+        var dbo = db.db("IMODREAM");
+        dbo.collection("Proprety Attribute").find({ImoId: parseInt(id)}).toArray(function(err, result) {
+            if (err) throw err;
+            res.send(result);
+            db.close();
+        });
+    });
+});
 
 module.exports = router;

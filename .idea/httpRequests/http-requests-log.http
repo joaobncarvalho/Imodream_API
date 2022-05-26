@@ -1,12 +1,10 @@
-GET http://localhost:8080/api/users/sellers
+GET http://localhost:8080/api/imo/1
 Accept: application/json
 
-<> 2022-05-24T094733.200.json
+<> 2022-05-26T160808.200.json
 
 ###
 
-GET http://localhost:8080/api/users/sellers
+GET http://localhost:8080/api/imo/1
 Accept: application/json
-
-###
 
