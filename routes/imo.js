@@ -40,7 +40,7 @@ router.get('/:id(\\d+)', function(req, res) {
 
         if (err) throw err;
         var dbo = db.db("IMODREAM");
-        dbo.collection("Proprety Attribute").find({ImoId: parseInt(id)}).toArray(function(err, result) {
+        dbo.collection("Imobiliaria").find({ImoId: parseInt(id)}).toArray(function(err, result) {
             if (err) throw err;
             res.send(result);
             db.close();

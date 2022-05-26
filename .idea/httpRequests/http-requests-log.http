@@ -1,6 +1,18 @@
 GET http://localhost:8080/api/imo/1
 Accept: application/json
 
+<> 2022-05-26T161025.200.json
+
+###
+
+GET http://localhost:8080/api/imo/1
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/imo/1
+Accept: application/json
+
 <> 2022-05-26T160808.200.json
 
 ###
