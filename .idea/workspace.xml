@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb28049-0a7f-4672-b643-2198cc1f9887" name="Changes" comment="push">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/imo.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/imo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,32 +31,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/joaob/WebstormProjects/imodreaminterface&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/joaob/WebstormProjects/imodreaminterface",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mongo&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;HTTP Request&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTTP Request"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\joaob\Desktop\IMODREAM\Imodream_API\models" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.http-requests-log | #1">
+  <component name="RunManager" selected="HTTP Request.http-requests-log | #2">
     <configuration name="http-requests-log | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -65,19 +66,19 @@
     <configuration name="http-requests-log | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="http-requests-log | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="5" requestIdentifier="#5" runType="Run single request">
+    <configuration name="http-requests-log | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="4" requestIdentifier="#4" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="teste | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/routes/teste.http" requestIdentifier="#1" runType="Run single request">
+    <configuration name="http-requests-log | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="5" requestIdentifier="#5" runType="Run single request">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.http-requests-log | #1" />
         <item itemvalue="HTTP Request.http-requests-log | #2" />
-        <item itemvalue="HTTP Request.http-requests-log | #3" />
-        <item itemvalue="HTTP Request.teste | #1" />
         <item itemvalue="HTTP Request.http-requests-log | #5" />
+        <item itemvalue="HTTP Request.http-requests-log | #4" />
+        <item itemvalue="HTTP Request.http-requests-log | #3" />
+        <item itemvalue="HTTP Request.http-requests-log | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -130,21 +131,12 @@
       <workItem from="1653405842795" duration="2852000" />
       <workItem from="1653463474156" duration="1187000" />
       <workItem from="1653490609519" duration="602000" />
-      <workItem from="1653576107653" duration="705000" />
-    </task>
-    <task id="LOCAL-00001" summary="push">
-      <created>1651584780269</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1651584780269</updated>
-    </task>
-    <task id="LOCAL-00002" summary="push">
-      <created>1651584795647</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1651584795647</updated>
+      <workItem from="1653576107653" duration="2863000" />
+      <workItem from="1653675595708" duration="2808000" />
+      <workItem from="1653928534733" duration="2634000" />
+      <workItem from="1654018402741" duration="605000" />
+      <workItem from="1654192034268" duration="2285000" />
+      <workItem from="1654522313498" duration="3501000" />
     </task>
     <task id="LOCAL-00003" summary="push">
       <created>1651585633605</created>
@@ -475,7 +467,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653382111046</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="push">
+      <created>1653577699307</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1653577699308</updated>
+    </task>
+    <task id="LOCAL-00051" summary="push">
+      <created>1653577911820</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1653577911820</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,5 +501,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push" />
     <option name="LAST_COMMIT_MESSAGE" value="push" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

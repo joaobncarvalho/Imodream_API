@@ -6,7 +6,6 @@ url ="mongodb+srv://JoaoIMO:imodream2022@cluster0.lyfie.mongodb.net/IMODREAM?ret
 
 
 
-// LISTA TODOS OS ELEMENTOS
 router.get('/', function(req, res) {
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
@@ -21,6 +20,8 @@ router.get('/', function(req, res) {
 });
 
 
+
+
 router.post('/add_users', function(req, res) {
   MongoClient.connect(url, function(err, db ) {
     if (err) throw err;
@@ -32,6 +33,26 @@ router.post('/add_users', function(req, res) {
     });
   });
 });
+
+
+router.get('/login/:email/:pw', function(req, res) {
+  var email = req.params.email
+  var pw = req.params.pw
+  console.log(email,pw)
+  MongoClient.connect(url, function(err, db) {
+
+    if (err) throw err;
+    var dbo = db.db("IMODREAM");
+    dbo.collection("Users").find({email: email , pw: pw }).toArray(function(err, result) {
+      if (err) throw err;
+      res.send(result);
+      db.close();
+    });
+  });
+});
+
+
+
 
 router.get('/sellers', function(req, res) {
   MongoClient.connect(url, function(err, db) {

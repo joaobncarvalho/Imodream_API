@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "628f921532d6f0453b835563",
+    "Name": "KW Lead",
+    "Email": "kw@gmail.com",
+    "Pw": "restelo2018",
+    "Morada": "Rua do desespero infindo",
+    "ImoId": 1,
+    "Criacao": "20-09-2018",
+    "PhoneN": 925431789,
+    "vendedores": [
+      {
+        "Vname": "Felippe Sabbado",
+        "Vemail": "sabbadinho@gmail.com",
+        "Vpw": "adorofotografia",
+        "Vmorada": "Aracaju, Minas Gerais",
+        "Vbdate": "24-09-1985",
+        "VphoneN": 962276953,
+        "Utype": "Vendedor"
+      }
+    ]
+  }
+]

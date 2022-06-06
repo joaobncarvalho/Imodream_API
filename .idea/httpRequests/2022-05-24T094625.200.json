@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "627ab2570d52ca85c8693c87",
+    "PropId": 1,
+    "PropretyType": "Apartamento",
+    "AreaName": "Restelo",
+    "StreetName": "Avenida Dr. Mario Moutinho, Restelo",
+    "Price": "1,500,000€",
+    "Dimension": "T4",
+    "Measurments": "300m2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.71196425733478,
+        -9.21110677356596
+      ]
+    }
+  }
+]

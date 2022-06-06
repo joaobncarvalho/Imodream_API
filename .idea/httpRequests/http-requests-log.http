@@ -1,22 +1,223 @@
-GET http://localhost:8080/api/imo/1
+GET http://localhost:8080/api/users/login/sabbadinho@gmail.com/adorofotografia
 Accept: application/json
 
-<> 2022-05-26T161025.200.json
+<> 2022-06-06T153215.200.json
 
 ###
 
-GET http://localhost:8080/api/imo/1
+GET http://localhost:8080/api/users/login/joaoimodream@gmail.com/123456
+Accept: application/json
+
+<> 2022-06-06T153121.200.json
+
+###
+
+GET http://localhost:8080/api/users/login/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T153116.200.json
+
+###
+
+GET http://localhost:8080/api/users/login/joaoimodream@gmail.com/123456
+Accept: application/json
+
+<> 2022-06-06T152734.200.json
+
+###
+
+GET http://localhost:8080/api/users/login/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T152658.200.json
+
+###
+
+GET http://localhost:8080/api/users/login/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T152622.200.json
+
+###
+
+GET http://localhost:8080/api/users/teste
+
+Accept: application/json
+
+<> 2022-06-06T152544.200.html
+
+###
+
+GET http://localhost:8080/api/users/teste
+
+Accept: application/json
+
+<> 2022-06-06T152208.200.json
+
+###
+
+GET http://localhost:8080/api/users/login/joaoimodream@gmail.com/123456
+Accept: application/json
+
+<> 2022-06-06T152145.404.html
+
+###
+
+GET http://localhost:8080/api/users/login/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T152135.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T152045.404.html
+
+###
+
+GET http://localhost:8080/api/users
+
+
+Accept: application/json
+
+<> 2022-06-06T152020.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com,adorofotografia
+Accept: application/json
+
+<> 2022-06-06T151725.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com,adorofotografia
+Accept: application/json
+
+<> 2022-06-06T151433.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T151355.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T151241.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T150153.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T150051.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T150045.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T145936.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T145858.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T145614.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T145601.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T145237.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T145235.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T145231.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.comadorofotografia
+Accept: application/json
+
+<> 2022-06-06T145226.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.comadorofotografia
+Accept: application/json
+
+<> 2022-06-06T145222.404.html
+
+###
+
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
+Accept: application/json
+
+<> 2022-06-06T145208.404.html
+
+###
+
+GET http://localhost:8080/api/users/{sabbadinho@gmail.com&adorofotografia}
 Accept: application/json
 
 ###
 
-GET http://localhost:8080/api/imo/1
+GET http://localhost:8080/api/users/sabbadinho@gmail.com/adorofotografia
 Accept: application/json
 
-<> 2022-05-26T160808.200.json
+<> 2022-06-06T145003.404.html
 
 ###
 
-GET http://localhost:8080/api/imo/1
+GET http://localhost:8080/api/users/sabbadinho@gmail.com&adorofotografia
 Accept: application/json
 
+###

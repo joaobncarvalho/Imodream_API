@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "627b751f7867caed14e022e0",
+    "name": "Felippe Sabbado",
+    "email": "sabbadinho@gmail.com",
+    "pw": "adorofotografia",
+    "morada": "Aracaju, Minas Gerais",
+    "bdate": "24-09-1985",
+    "phoneN": 962276953,
+    "utype": "Vendedor"
+  },
+  {
+    "_id": "627b752c7867caed14e022e1",
+    "name": "Bruno Mata",
+    "email": "brunoimodream@gmail.com",
+    "pw": "123456",
+    "morada": "Rua Casal Quartilho",
+    "bdate": "24-09-1997",
+    "phoneN": 960123321,
+    "utype": "Admin"
+  },
+  {
+    "_id": "627b753a7867caed14e022e2",
+    "name": "João Carvalho",
+    "email": "joaoimodream@gmail.com",
+    "pw": "123456",
+    "morada": "Restelo",
+    "bdate": "13-06-2000",
+    "phoneN": 910321213,
+    "utype": "Admin"
+  },
+  {
+    "_id": "627b75477867caed14e022e3",
+    "name": "Bruno Preto",
+    "email": "brunopreto@gmail.com",
+    "pw": "123456",
+    "morada": "Pontinha",
+    "bdate": "05-09-1998",
+    "phoneN": 930321213,
+    "utype": "Utilizador"
+  },
+  {
+    "_id": "627b75517867caed14e022e4",
+    "name": "João garcia",
+    "email": "joaogarcia@gmail.com",
+    "pw": "123456",
+    "morada": "Tomar",
+    "bdate": "12-04-2002",
+    "phoneN": 910361213,
+    "utype": "Utilizador"
+  },
+  {
+    "_id": "627b755b7867caed14e022e5",
+    "name": "Rafa Olivas",
+    "email": "rafaoli@gmail.com",
+    "pw": "dubaifoifixe",
+    "morada": "Amadora",
+    "bdate": "24-09-2002",
+    "phoneN": 927890564,
+    "utype": "Utilizador"
+  },
+  {
+    "_id": "627b75697867caed14e022e6",
+    "name": "Ricardo Abrantes",
+    "email": "bairrista4ever@gmail.com",
+    "pw": "roubobuememo",
+    "morada": "Bairro da Belavista, Setubal",
+    "bdate": "24-09-2002",
+    "phoneN": 962276953,
+    "utype": "Vendedor"
+  },
+  {
+    "_id": "627b7bc77867caed14e022e8",
+    "name": "Luis Silva",
+    "email": "luis@gmail.com",
+    "pw": "bandido",
+    "morada": "Baixa-Chiado, Lisboa",
+    "bdate": "25-07-2002",
+    "phoneN": 967365827,
+    "utype": "Vendedor"
+  },
+  {
+    "_id": "627ce708a69938fae0fe00f7",
+    "name": "Rafael Andre",
+    "email": "RafaAndre@gmail.com",
+    "pw": "adorolol",
+    "morada": "Amadora, Lisboa",
+    "bdate": "13-03-2002",
+    "phoneN": 962296953,
+    "utype": "Vendedor"
+  },
+  {
+    "_id": "627cea61a69938fae0fe00f9",
+    "name": "Vitor Tenente",
+    "email": "vitort@gmail.com",
+    "pw": "auditt",
+    "morada": "Sintra, Sintra",
+    "bdate": "11-03-2002",
+    "phoneN": 913456765,
+    "utype": "Utilizador"
+  }
+]

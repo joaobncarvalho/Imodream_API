@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "627b751f7867caed14e022e0",
+    "name": "Felippe Sabbado",
+    "email": "sabbadinho@gmail.com",
+    "pw": "adorofotografia",
+    "morada": "Aracaju, Minas Gerais",
+    "bdate": "24-09-1985",
+    "phoneN": 962276953,
+    "utype": "Vendedor"
+  },
+  {
+    "_id": "627b75697867caed14e022e6",
+    "name": "Ricardo Abrantes",
+    "email": "bairrista4ever@gmail.com",
+    "pw": "roubobuememo",
+    "morada": "Bairro da Belavista, Setubal",
+    "bdate": "24-09-2002",
+    "phoneN": 962276953,
+    "utype": "Vendedor"
+  },
+  {
+    "_id": "627b7bc77867caed14e022e8",
+    "name": "Luis Silva",
+    "email": "luis@gmail.com",
+    "pw": "bandido",
+    "morada": "Baixa-Chiado, Lisboa",
+    "bdate": "25-07-2002",
+    "phoneN": 967365827,
+    "utype": "Vendedor"
+  },
+  {
+    "_id": "627ce708a69938fae0fe00f7",
+    "name": "Rafael Andre",
+    "email": "RafaAndre@gmail.com",
+    "pw": "adorolol",
+    "morada": "Amadora, Lisboa",
+    "bdate": "13-03-2002",
+    "phoneN": 962296953,
+    "utype": "Vendedor"
+  }
+]
